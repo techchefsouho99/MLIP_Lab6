@@ -12,10 +12,10 @@ pipeline {
         }
         stage('Test') {
             steps {
-                # techchefsouho99 implementation
                 sh '''#!/bin/bash
                 echo 'Test Step: We run testing tool like pytest here'
 
+                # techchefsouho99 implementation
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
                 sudo /opt/miniconda3/bin/conda init bash
